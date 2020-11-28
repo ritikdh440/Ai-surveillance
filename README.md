@@ -1,7 +1,7 @@
 # Ai-surveillance
 Project by Team SPEC
 
-Introduction: Detect activities of a person un real time video stream.
+Introduction: Detect activities of a person in real time video stream.
 
 Algorithm: YOLO
 
