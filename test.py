@@ -16,3 +16,9 @@ image = cv2.imread("test_image.jpg")
 cv2.imshow("Test", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+# Detecting objects
+blob = cv2.dnn.blobFromImage(img, 0.00392, (416, 416), (0, 0, 0), True, crop=False)
+
+net.setInput(blob)
+outs = net.forward(output_layers)
