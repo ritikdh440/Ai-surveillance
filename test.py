@@ -1,4 +1,4 @@
-import cv2
+import cv2               #opencv
 import numpy as numpy
 
 #load yolo
